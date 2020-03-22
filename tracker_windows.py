@@ -5,7 +5,7 @@ from win10toast import ToastNotifier as toast
 
 
 def display():
-    time.sleep(10)
+    time.sleep(1200)
     n = toast()
     chrome_options = Options()  
     chrome_options.add_argument("--headless")  
